@@ -1,0 +1,40 @@
+body {
+  background-color: #677d93;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#container {
+  color: #d7dfe4;
+}
+.digit {
+  font-size: 80px;
+  font-weight: bold;
+}
+.text {
+  font-size: 30px;
+  font-weight: bold;
+}
+#btn-container {
+  text-align: center;
+  margin-top: 40px;
+}
+.btn {
+  padding: 7px 25px;
+  font-size: 15px;
+  margin: 10px;
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
+
+#start{
+    background-color: #1abc9c;
+}
+#stop{
+    background-color:#3498db;
+}
+#reset{
+    background-color: #e74c3c;
+}
